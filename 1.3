@@ -1,0 +1,11 @@
+print('Введите числа и дважды нажмите ENTER')
+n = int(input())
+count = 0
+counter = 0
+while n > 0:
+    count += n
+    n = int(input())
+    if n == 0:
+        print('Сумма чисел:', count)
+    counter = counter + 1
+print('Количество чисел:', counter)
